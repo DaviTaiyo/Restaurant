@@ -1,0 +1,82 @@
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* estilo para o corpo da página */
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    color: #333;
+    }
+    
+    /* estilo para o cabeçalho */
+    h1 {
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    /* estilo para o formulário */
+    form {
+    width: 500px;
+    margin: 0 auto;
+    }
+    
+    /* estilo para as etiquetas do formulário */
+    label {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    }
+    
+    /* estilo para as caixas de texto do formulário */
+    input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    
+    /* estilo para o botão de envio do formulário */
+    input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #3e8e41;
+    }
+    
+    /* estilo para a caixa de seleção do formulário */
+    select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    
+    /* estilo para os espaços entre as etiquetas do formulário */
+    br {
+    clear: both;
+    }
+    
+    /* estilo para os títulos das opções da caixa de seleção */
+    option {
+    font-size: 16px;
+    font-weight: bold;
+    }

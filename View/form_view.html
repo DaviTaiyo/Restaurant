@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cardápio do Restaurante</title>
+  </head>
+  <header>
+    <h1 onclick="location.href = 'Home_View.html';">Restaurante Food</h1>
+    <nav>
+      <ul>
+        <button onclick="location.href = 'Cardapio_View.html';">Ver Cardápio</button>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <h1>Cardápio do Restaurante</h1>
+
+    <link href="../Css/estilopagina.css" rel="stylesheet" type="text/css" />
+
+    <form>
+      <label for="diaSemana">Dia da Semana:</label>
+      <select id="diaSemana" name="diaSemana">
+        <option value="segunda-feira">Segunda-feira</option>
+        <option value="terca-feira">Terça-feira</option>
+        <option value="quarta-feira">Quarta-feira</option>
+        <option value="quinta-feira">Quinta-feira</option>
+        <option value="sexta-feira">Sexta-feira</option>
+        <option value="sabado">Sábado</option>
+        <option value="domingo">Domingo</option>
+      </select>
+      <br><br>
+      <label for="nomePratos">Pratos:</label>
+      <input type="text" id="nomePratos" name="nomePratos"><br><br>
+      <label for="descItens">Descrição:</label>
+      <input type="text" id="descItens" name="descItens"><br><br>
+      <label for="acrescimos">Acréscimos:</label>
+      <input type="text" id="acrescimos" name="acrescimos"><br><br>
+      <label for="bebidas">Bebidas:</label>
+      <input type="text" id="bebidas" name="bebidas"><br><br>
+      <label for="sobremesa">Sobremesa:</label>
+      <input type="text" id="sobremesa" name="sobremesa"><br><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

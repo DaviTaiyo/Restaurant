@@ -1,0 +1,20 @@
+{
+    "pratos": [
+      {
+        "nome": "Lasanha à bolonhesa",
+        "descricao": "Deliciosa lasanha com carne moída e molho de tomate.",
+        "preco": 28.50
+      },
+      {
+        "nome": "Salmão grelhado",
+        "descricao": "Salmão grelhado com legumes frescos e arroz integral.",
+        "preco": 35.00
+      },
+      {
+        "nome": "Pizza de pepperoni",
+        "descricao": "Pizza de pepperoni com queijo mussarela e molho de tomate.",
+        "preco": 22.00
+      }
+    ]
+  }
+  

@@ -1,0 +1,159 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+/* Banner */
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.banner p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.banner button {
+  background-color: #e67e22;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+}
+
+.banner button:hover {
+  background-color: #d35400;
+}
+
+/* Destaques */
+.destaques {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+}
+
+.destaques h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.destaques ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.destaques li {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.destaques img {
+  max-width: 100%;
+}
+
+.destaques h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.destaques p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/* Sobre */
+.sobre {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.sobre h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sobre p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

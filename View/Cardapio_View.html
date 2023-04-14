@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cardápio do Restaurante</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 onclick="location.href = 'Home_View.html';">Restaurante Food</h1>
+      <nav>
+        <ul>
+          <li><a href="#entradas">Entradas</a></li>
+          <li><a href="#pratos-principais">Pratos Principais</a></li>
+          <li><a href="#bebidas">Bebidas</a></li>
+          <li><a href="#sobremesas">Sobremesas</a></li>
+          <li><a onclick="location.href = 'form_view.html';">alterar Cardapio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form>
+      <label for="diaSemana">Cardapio do dia:</label>
+      <select id="diaSemana" name="diaSemana">
+        <option value="segunda-feira">Segunda-feira</option>
+        <option value="terca-feira">Terça-feira</option>
+        <option value="quarta-feira">Quarta-feira</option>
+        <option value="quinta-feira">Quinta-feira</option>
+        <option value="sexta-feira">Sexta-feira</option>
+        <option value="sabado">Sábado</option>
+        <option value="domingo">Domingo</option>
+      </select>
+      </form>
+    <main>
+      <section id="entradas">
+        <h2>Entradas</h2>
+        <ul>
+          <li>
+            <h3>Salada Caesar</h3>
+            <p>Alface americana, molho caesar, croutons e parmesão</p>
+            <span class="preco">R$ 15,00</span>
+          </li>
+          <li>
+            <h3>Carpaccio</h3>
+            <p>Fatias finas de carne crua, rúcula, queijo parmesão e molho de mostarda</p>
+            <span class="preco">R$ 20,00</span>
+          </li>
+        </ul>
+      </section>
+      <section id="pratos-principais">
+        <h2>Pratos Principais</h2>
+        <ul>
+          <li>
+            <h3>Filet Mignon</h3>
+            <p>Com molho madeira, arroz branco e batata frita</p>
+            <span class="preco">R$ 35,00</span>
+          </li>
+          <li>
+            <h3>Picanha</h3>
+            <p>Acompanha arroz, feijão, farofa e vinagrete</p>
+            <span class="preco">R$ 40,00</span>
+          </li>
+        </ul>
+      </section>
+      <section id="bebidas">
+        <h2>Bebidas</h2>
+        <ul>
+          <li>
+            <h3>Cerveja Brahma</h3>
+            <p>Long neck</p>
+            <span class="preco">R$ 6,00</span>
+          </li>
+          <li>
+            <h3>Refrigerante</h3>
+            <p>Lata</p>
+            <span class="preco">R$ 4,00</span>
+          </li>
+        </ul>
+      </section>
+      <section id="sobremesas">
+        <h2>Sobremesas</h2>
+        <ul>
+          <li>
+            <h3>Pudim de Leite</h3>
+            <span class="preco">R$ 8,00</span>
+          </li>
+          <li>
+            <h3>Torta de Limão</h3
